@@ -21,11 +21,21 @@ cd OCNC-DLC-2025
 ```shell
 conda env create -f OCNC_DLC_ENV.yml
 ```
+Activate the tutorial environment
+```shell
+conda activate OCNC_DLC
+```
 ### 2. Download the video into the video directory
-<!-- ```shell
-mkdir -p video && wget -O video/M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=4ce924b1-c609-46fa-a198-c690ab407067"
-``` -->
+```shell
+mkdir -p video
+```
 Click the following link to download: https://filesender2.oist.jp/filesender/?s=download&token=ed4fe7e6-2a76-4e6a-90e0-963a4cb3223e
+```shell
+mv <"PATH of where your videos are downloaded to/M_190124_110324_12_60fps.avi"> video/
+```
+```shell
+mv <"PATH of where your videos are downloaded to/M_190124_110324_12_30fps_30s.mp4"> video/
+```
 ## This is the panic section with maybe some random tips (?)
 - If you are a windows user (i'm sorry) please keep in mind the path specification and be consistent. Avoid using both to avoid confusion for *dear* computer. 
     - `r"C:\Users\"`(single slash) OR`"C:\\Users\\"` (double slash)
