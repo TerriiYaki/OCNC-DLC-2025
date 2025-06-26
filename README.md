@@ -17,7 +17,10 @@ Move into the directory.
 ```shell
 cd OCNC-DLC-2025
 ```
-
+#### If no DLC installation:
+```shell
+conda env create -f OCNC_DLC_ENV.yml
+```
 ### 2. Download the video into the video directory
 <!-- ```shell
 mkdir -p video && wget -O video/M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=4ce924b1-c609-46fa-a198-c690ab407067"
