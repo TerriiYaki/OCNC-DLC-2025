@@ -6,14 +6,23 @@ The DeepLabCut (DLC) tutorial is put into the jupyter notebook:`OCNC-DLC-tutoria
 Oh! There is also a notebook for some plotting of results: `OCNC-DLC-tutorial-plotting.ipynb`! 
 ## Setup and Installation of tutorial materials
 Please find the installation guidelines from the DLC repo here: https://deeplabcut.github.io/DeepLabCut/docs/installation.html
-- <span style="background-color:rgb(237, 172, 194)">If you <b>do not</b> have a native DLC installation</span>, you can use the `OCNC_DLC_SETUP.yml` file to install the requirements. This also includes the libraries I use for the plotting. *Note:* This disregards the GPU engagement.
+- <span style="background-color:rgb(237, 172, 194)">If you <b>do not</b> have a native DLC installation</span>, you can use the `OCNC_DLC_ENV.yml` file to install the requirements. This also includes the libraries I use for the plotting. *Note:* This disregards the GPU engagement.
 - <span style="background-color:rgb(237, 172, 194)">If you <b>do</b> have a native DLC installation</span>, make sure you are using the correct kernel in the ipybn notebook.
 
-### Download the video into the video directory
+### 1. Get the tutorial materials
 ```shell
-mkdir -p video && wget -O video/M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=c8e9afa8-303b-47c1-bf43-5eb6cdaefe13"
+git clone https://github.com/TerriiYaki/OCNC-DLC-2025.git
+```
+Move into the directory.
+```shell
+cd OCNC-DLC-2025
 ```
 
+### 2. Download the video into the video directory
+<!-- ```shell
+mkdir -p video && wget -O video/M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=4ce924b1-c609-46fa-a198-c690ab407067"
+``` -->
+Click the following link to download: https://filesender2.oist.jp/filesender/?s=download&token=ed4fe7e6-2a76-4e6a-90e0-963a4cb3223e
 ## This is the panic section with maybe some random tips (?)
 - If you are a windows user (i'm sorry) please keep in mind the path specification and be consistent. Avoid using both to avoid confusion for *dear* computer. 
     - `r"C:\Users\"`(single slash) OR`"C:\\Users\\"` (double slash)
