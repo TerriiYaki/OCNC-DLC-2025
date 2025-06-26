@@ -11,10 +11,7 @@ Please find the installation guidelines from the DLC repo here: https://deeplabc
 
 ### Download the video into the video directory
 ```shell
-cd video
-```
-```shell
-wget --directory-prefix=/video/ M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=c8e9afa8-303b-47c1-bf43-5eb6cdaefe13"
+mkdir -p video && wget -O video/M_190124_110324_12_60fps.avi "https://filesender2.oist.jp/filesender/?s=download&token=c8e9afa8-303b-47c1-bf43-5eb6cdaefe13"
 ```
 
 ## This is the panic section with maybe some random tips (?)
