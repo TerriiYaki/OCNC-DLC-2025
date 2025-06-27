@@ -29,7 +29,7 @@ conda activate OCNC_DLC
 ```shell
 mkdir video
 ```
-Click the following link to download: https://filesender2.oist.jp/filesender/?s=download&token=ed4fe7e6-2a76-4e6a-90e0-963a4cb3223e
+Click the following link to download: https://www.dropbox.com/scl/fo/ix1ep38n6yec6tclka5h1/AOmVxBZzDjpIwNqaHZ5TzKw/Tutorial/DeepLabCut?rlkey=5uiat4wym73r0uq0xlop0i2pc&e=2&subfolder_nav_tracking=1&st=ne7soics&dl=0
 ```shell
 mv <"PATH of where your videos are downloaded to/M_190124_110324_12_60fps.avi"> video/
 ```
