@@ -27,7 +27,7 @@ conda activate OCNC_DLC
 ```
 ### 2. Download the video into the video directory
 ```shell
-mkdir -p video
+mkdir video
 ```
 Click the following link to download: https://filesender2.oist.jp/filesender/?s=download&token=ed4fe7e6-2a76-4e6a-90e0-963a4cb3223e
 ```shell
